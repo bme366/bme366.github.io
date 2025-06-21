@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BME 366: Biosignal Processing and Analysis</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Use Inter as the default font */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Simple animation for cards on hover */
+        .resource-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl font-bold text-indigo-600">BME 366: Biosignal Processing and Analysis</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto p-4 sm:p-6 lg:p-8">
+        
+        <!-- Welcome Section -->
+        <section id="welcome" class="bg-white p-6 rounded-xl shadow-sm mb-8">
+            <h2 class="text-2xl font-semibold mb-3">Welcome!</h2>
+            <p class="text-slate-600">
+                This webpage is the central hub for all materials related to BME 366. Check back regularly for updates. If you have any questions, feel free to reach out.
+            </p>
+        </section>
+
+        <!-- Course Materials Section -->
+        <section id="materials">
+            <h2 class="text-3xl font-bold text-center mb-8">Course Materials</h2>
+
+            <!-- Week 1 -->
+            <div class="mb-12">
+                <div class="flex items-center mb-4">
+                    <span class="bg-indigo-500 text-white text-sm font-semibold px-3 py-1 rounded-full">Week 1</span>
+                    <h3 class="text-2xl font-semibold ml-4">Intro to Biosignals</h3>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Resource Card: Slides -->
+                    <a href="src/-/Biosignals-lecture-1.html" class="resource-card block bg-white p-5 rounded-xl shadow-sm transition-all duration-300" target="_blank" rel="noopener noreferrer">
+                        <div class="flex items-center">
+                            <!-- Icon for Slides -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                            </svg>
+                            <div class="ml-4">
+                                <h4 class="font-semibold text-lg">Lecture 1: Slides</h4>
+                                <p class="text-slate-500 text-sm">Introduction to Biomedical Signals.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Resource Card: Reading -->
+                     <a href="#" class="resource-card block bg-white p-5 rounded-xl shadow-sm transition-all duration-300">
+                        <div class="flex items-center">
+                            <!-- Icon for Document -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                            </svg>
+                            <div class="ml-4">
+                                <h4 class="font-semibold text-lg">Reading: Chapters 1-2</h4>
+                                <p class="text-slate-500 text-sm">Rangayyan, R. M. (2015). Biomedical signal analysis: A case-study approach (2nd ed.).</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Week 2 -->
+            <div class="mb-12">
+                <div class="flex items-center mb-4">
+                    <span class="bg-indigo-500 text-white text-sm font-semibold px-3 py-1 rounded-full">Week 2</span>
+                    <h3 class="text-2xl font-semibold ml-4">Sampling and Quantization</h3>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Resource Card: Slides -->
+                    <a href="src/-/Biosignals-Lecture-2.html" class="resource-card block bg-white p-5 rounded-xl shadow-sm transition-all duration-300" target="_blank" rel="noopener noreferrer">
+                        <div class="flex items-center">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                            </svg>
+                            <div class="ml-4">
+                                <h4 class="font-semibold text-lg">Lecture 2: Slides</h4>
+                                <p class="text-slate-500 text-sm">Sampling and Quantization.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Resource Card: Reading -->
+                     <a href="#" class="resource-card block bg-white p-5 rounded-xl shadow-sm transition-all duration-300" >
+                        <div class="flex items-center">
+                            <!-- Icon for Document -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                            </svg>
+                            <div class="ml-4">
+                                <h4 class="font-semibold text-lg">Reading: Chapters 1-2</h4>
+                                <p class="text-slate-500 text-sm">Rangayyan, R. M. (2015). Biomedical signal analysis: A case-study approach (2nd ed.) | Palaniappan, R. (2011). Biological signal analysis..</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- More weeks can be added here following the same pattern -->
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 bg-white border-t border-slate-200">
+        <p class="text-slate-500">&copy; 2025 P. E. Adjei. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
